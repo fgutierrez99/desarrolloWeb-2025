@@ -1,0 +1,49 @@
+html { /*declaracion variable global*/
+    --color-fondo:brown;
+    --tamanio-texto: 20px;
+}
+
+
+h1 { /*estilo por etiqueta*/
+    color: purple;
+}
+p { /*estilo por etiqueta*/
+    color: var(--color-fondo);
+    font-size: var(--tamanio-texto);
+}
+#sub, h4 { /*estilo por identificadores*/
+    color: #00f;
+}
+.clase, h3 { /*estilo por clase o combinar con etiquetas**/
+    color: #777;
+}
+/*div div p { estilo por jerarquia sin afectar demas etiquetas
+    color: #f00; se define el color
+    font-size: 25px; se define el tamaño
+    font-style: italic; se define el estilo
+    font-size: 2em;
+}*/
+
+div {
+    font-size: 2em;
+    width: min(100px,50vw);
+    height: clamp(20px,50vw, 500px);
+    background-color: var(--color-fondo);
+}
+
+/*p:hover { seudo clase :
+    font-size: 2em;
+    color: red;
+    transition: 5s;
+}*/
+
+p::before{ /*seudo elemento ::*/
+    content: "Prefijo ";
+}
+
+@media(max-width:500px){
+    p {
+        color: #0f0;
+        font-size: 2em;
+    }
+}
