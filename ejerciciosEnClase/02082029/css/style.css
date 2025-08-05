@@ -1,0 +1,24 @@
+#caja  {
+    background-color: #0f0;
+    width: 30px; /*alto*/
+    height: 2%; /*ancho*/
+    /*padding: 30px 5px 10px 50px;*/
+    padding-top: 30px; /*contenido*/
+    padding-right: 30px; /*contenido*/
+    padding-bottom: 30px; /*contenido*/
+    padding-left: 30px; /*contenido*/
+    border: 10 px; /*borde*/
+    border-style: inset; /*borde*/
+    border-color: blueviolet; /*borde*/
+    margin: auto; /*margen*/
+}
+
+#contenedor{ /*contenedor de las cajas*/
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5px;
+}
+
+.especial{
+    grid-column: span 2;
+}
