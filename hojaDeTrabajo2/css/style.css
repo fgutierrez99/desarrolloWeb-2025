@@ -36,3 +36,7 @@ body::before {
     opacity: 0.5;
     z-index: -1;
 }
+
+.centrar {
+    text-align: center;
+}
