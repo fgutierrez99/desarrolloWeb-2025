@@ -11,3 +11,5 @@ Descripción: Creación de página web informando detalles relevantes sobre curs
 Enlace: https://tarea1fg.netlify.app
 
 Hoja de Trabajo 2
+Descripción: Agregar estilo a la hora de trabajo No. 1
+Enlace: https://horadetrabajo2fg.netlify.app
