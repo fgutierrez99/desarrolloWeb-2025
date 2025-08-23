@@ -1,0 +1,170 @@
+/* Fondo con imagen y opacidad */
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagenes/laguna1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+h1, h2 {
+  color: #2e7d32; /* Verde oscuro */
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Títulos y texto centrado */
+.centrar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para galería de imágenes */
+.imagen {
+    border-radius: 15px;
+    width: 280px;
+    height: 140px;
+    object-fit: cover;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor de galería */
+div.centrar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Mapa al lado del texto */
+.contenedorMap {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+/* Imagen del mapa */
+#mapa {
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/* Índice como barra horizontal responsiva */
+.indice {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.indice li {
+    flex: none;
+}
+
+.indice li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 100, 0, 0.8);
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+    transition: background-color 0.3s ease;
+}
+
+.indice li a:hover {
+    background-color: #66bb6a;
+}
+
+/* Tabla de itinerario */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffffd0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #aaa;
+    text-align: center;
+}
+
+th {
+    background-color: #388e3c;
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffffcc;
+    border-top: 2px solid #4CAF50;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2e7d32;
+}
+
+.actividadListado {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.actividad {
+    background-color: #e8f5e9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #2e7d32;
+    border: 1px solid #81c784;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.actividad:hover {
+    transform: scale(1.05);
+    background-color: #c8e6c9;
+}
+
