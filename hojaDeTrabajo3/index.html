@@ -14,24 +14,18 @@
     <h1 class="centrar">Laguna Atescatempa - Destino acuático en la naturaleza</h1>
 
     <ul class="nav nav-pills">
-        <!-- Inicio -->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="inicioDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Inicio
             </a>
             <ul class="dropdown-menu" aria-labelledby="inicioDropdown">
-                <li><a class="dropdown-item" href="index.html">Ver página de Inicio</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
                 <li><a class="dropdown-item" href="index.html#descripcion">Descripción</a></li>
                 <li><a class="dropdown-item" href="index.html#leyenda">Leyenda</a></li>
                 <li><a class="dropdown-item" href="index.html#itinerarios">Itinerario</a></li>
                 <li><a class="dropdown-item" href="index.html#actividades">Actividades</a></li>
             </ul>
         </li>
-        <!-- Atracciones -->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="atraccionesDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,12 +36,9 @@
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="atracciones.html#laguna">Laguna</a></li>
-                <li><a class="dropdown-item" href="atracciones.html#picnic">Área de picnic</a></li>
-                <li><a class="dropdown-item" href="atracciones.html#pesca">Pesca</a></li>
+                <li><a class="dropdown-item" href="atracciones.html#actividades">Atracciones</a></li>
             </ul>
         </li>
-        <!-- Alojamientos -->
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="alojamientosDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,11 +49,44 @@
                 <li>
                     <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="alojamiento.html#reserva">Reserva</a></li>
-                <li><a class="dropdown-item" href="alojamiento.html#hotel">Hotel</a></li>
+                <li><a class="dropdown-item" href="alojamiento.html#hotel">Hoteles</a></li>
             </ul>
         </li>
     </ul>
+
+    <div id="carruselLaguna" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/laguna2.jpg" class="d-block mx-auto" alt="Laguna 2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/laguna3.jpg" class="d-block mx-auto" alt="Laguna 3">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/laguna4.jpg" class="d-block mx-auto" alt="Laguna 4">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/laguna5.jpg" class="d-block mx-auto" alt="Laguna 5">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselLaguna" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselLaguna" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselLaguna" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carruselLaguna" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carruselLaguna" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carruselLaguna" data-bs-slide-to="3"></button>
+        </div>
+    </div>
+
 
 
     <h2 id="descripcion" class="centrar">Descripción</h2>

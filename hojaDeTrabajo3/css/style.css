@@ -1,4 +1,3 @@
-/* Fondo con imagen y opacidad */
 body {
     position: relative;
     margin: 0;
@@ -23,42 +22,57 @@ body::before {
     z-index: -1;
 }
 
-h1, h2 {
-  color: #2e7d32; /* Verde oscuro */
-  margin-top: 30px;
-  margin-bottom: 15px;
+h1,
+h2,
+h3 {
+    color: #2e7d32;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
-p {
+.dropdown-item,
+#alojamientosDropdown,
+#atraccionesDropdown,
+#inicioDropdown {
+    color: #2e7d32;
+}
+
+.dropdown-item,
+#alojamientosDropdown,
+#atraccionesDropdown,
+#inicioDropdown {
     background-color: rgba(255, 255, 255, 0.6);
     padding: 8px;
     border-radius: 8px;
 }
 
-/* Títulos y texto centrado */
+.detalleHotel {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 8px;
+    border-radius: 8px;
+}
+
 .centrar {
     text-align: center;
     margin-top: 20px;
 }
 
-/* Estilo para galería de imágenes */
-.imagen {
+.carousel-item img {
     border-radius: 15px;
-    width: 280px;
-    height: 140px;
+    width: 560px;
+    height: 280px;
     object-fit: cover;
-    margin: 10px;
+    margin: 20px auto;
+    display: block;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Contenedor de galería */
 div.centrar {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-/* Mapa al lado del texto */
 .contenedorMap {
     display: flex;
     align-items: center;
@@ -68,14 +82,12 @@ div.centrar {
     margin: 30px 0;
 }
 
-/* Imagen del mapa */
 #mapa {
     width: 600px;
     height: 300px;
     border-radius: 15px;
 }
 
-/* Índice como barra horizontal responsiva */
 .indice {
     list-style: none;
     padding: 0;
@@ -106,7 +118,6 @@ div.centrar {
     background-color: #66bb6a;
 }
 
-/* Tabla de itinerario */
 table {
     width: 90%;
     margin: 20px auto;
@@ -116,7 +127,8 @@ table {
     overflow: hidden;
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     border: 1px solid #aaa;
     text-align: center;
@@ -127,7 +139,6 @@ th {
     color: white;
 }
 
-/* Footer */
 footer {
     margin-top: 40px;
     padding: 20px;
@@ -142,29 +153,12 @@ footer a {
     color: #2e7d32;
 }
 
-.actividadListado {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 15px;
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
+.card {
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
 }
 
-.actividad {
-    background-color: #e8f5e9;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: #2e7d32;
-    border: 1px solid #81c784;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
-}
-
-.actividad:hover {
+.card:hover {
     transform: scale(1.05);
-    background-color: #c8e6c9;
 }
-
