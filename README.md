@@ -13,3 +13,7 @@ Enlace: https://tarea1fg.netlify.app
 Hoja de Trabajo 2
 Descripción: Agregar estilo a la hora de trabajo No. 1
 Enlace: https://horadetrabajo2fg.netlify.app
+
+Hoja de Trabajo 3
+Descripción: Agregar estilos de boostrab a la hoja de trabajo No. 2
+Enlace: https://horadetrabajo3fg.netlify.app
