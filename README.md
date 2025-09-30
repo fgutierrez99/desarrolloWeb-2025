@@ -21,3 +21,7 @@ Enlace: https://horadetrabajo3fg.netlify.app
 Hoja de Trabajo 4
 Descripción: Manejo de HTML y JavaScript para formularios y comentarios
 Enlace: https://hojadetrabajo4fg.netlify.app
+
+Hoja de Trabajo 5
+Descripción: Manejo de HTML con archivos SCSS
+Enlace: 
