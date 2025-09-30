@@ -17,3 +17,7 @@ Enlace: https://horadetrabajo2fg.netlify.app
 Hoja de Trabajo 3
 Descripción: Agregar estilos de boostrab a la hoja de trabajo No. 2
 Enlace: https://horadetrabajo3fg.netlify.app
+
+Hoja de Trabajo 4
+Descripción: Manejo de HTML y JavaScript para formularios y comentarios
+Enlace: https://hojadetrabajo4fg.netlify.app
