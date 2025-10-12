@@ -25,3 +25,8 @@ Enlace: https://hojadetrabajo4fg.netlify.app
 Hoja de Trabajo 5
 Descripción: Manejo de HTML con archivos SCSS
 Enlace: https://hojadetrabajo5fg.netlify.app
+
+Hoja de Trabajo 6
+Descripción: Creación de api para ver, registrar, actualizar y eliminar usuarios
+Enlace: https://hojadetrabajo6-api.onrender.com
+Pasos para instalación local npm install y npm run dev
