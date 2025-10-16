@@ -30,3 +30,10 @@ Hoja de Trabajo 6
 Descripción: Creación de api para ver, registrar, actualizar y eliminar usuarios
 Enlace: https://hojadetrabajo6-api.onrender.com
 Pasos para instalación local npm install y npm run dev
+
+Tarea 3
+Descripción: Creación de api y web para registro de usuarios
+Enlace api: https://desarrolloweb-2025-1.onrender.com
+Enlace web: https://tarea3-client.onrender.com
+Dependencias backend: npm install, npm run dev (puerto 3000)
+Dependencias frontend: npm install, npm run dev (puesto 5713)
